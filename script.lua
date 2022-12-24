@@ -74,6 +74,24 @@ Tab:AddButton({
               print("executed")
       end    
 })
+Tab:AddButton({
+    Name = "Prision Life Septex Admin (OP)",
+    Callback = function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+              print("executed")
+      end    
+})
+Tab:AddButton({
+    Name = "PRISIONWARE",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+              print("executed")
+      end    
+})
+Tab:AddButton({
+    Name = "Adopt Me AutoFarm",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+              print("executed")
+      end    
+})
 end
 
 function CorrectKeyNotification()
